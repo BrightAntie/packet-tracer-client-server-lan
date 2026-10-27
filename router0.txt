@@ -1,0 +1,9 @@
+! Router0 - default gateway for 192.168.1.0/24
+enable
+configure terminal
+interface GigabitEthernet0/0
+ ip address 192.168.1.1 255.255.255.0
+ no shutdown
+exit
+end
+write memory

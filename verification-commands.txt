@@ -1,0 +1,10 @@
+! --- On Router0 (CLI) ---
+show ip interface brief
+
+! --- On PC0 (Desktop > Command Prompt) ---
+ipconfig
+ping 192.168.1.20
+ping 192.168.1.100
+
+! --- On PC0 (Desktop > Web Browser) ---
+http://192.168.1.100
