@@ -1,0 +1,5 @@
+Device,Interface,IPv4 Address,Subnet Mask,Default Gateway
+PC0,FastEthernet0,192.168.1.10,255.255.255.0,192.168.1.1
+PC1,FastEthernet0,192.168.1.20,255.255.255.0,192.168.1.1
+Server0,FastEthernet0,192.168.1.100,255.255.255.0,192.168.1.1
+Router0,GigabitEthernet0/0,192.168.1.1,255.255.255.0,N/A
